@@ -22,7 +22,7 @@ output "aws_account_id" {
 }
 
 resource "aws_s3_bucket" "orbit_storage" {
-  bucket_prefix = "orbit-storage-"
+  bucket_prefix = "orbit-storage1-"
 
   tags = {
     name      = "Orbit Labs Storage"
